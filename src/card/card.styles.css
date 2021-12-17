@@ -1,0 +1,33 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    border: 1px solid grey;
+    border-radius: 30px;
+    padding: 25px;
+    cursor: pointer;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+}
+
+.images{
+    border-radius: 30px;
+}
+
+p{
+    font-family: 'Anton';
+}
+
+h1{
+    font-family: Tahoma;
+
+}
+
+.card-container:hover {
+    transform: scale(1.05);
+}
+div{
+    margin-top: 10px;
+}
